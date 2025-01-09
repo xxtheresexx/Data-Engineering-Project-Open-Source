@@ -32,6 +32,7 @@ Hi, thanks for stopping by! This space is where I document and practice building
   - Access Web UI: http://localhost:8080
   - New Connection: Install Amazon connection package: pip install apache-airflow-providers-amazon
   - New Connection: Install Postgre connection package: https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html
+  - Start Web UI: airflow webserver -p 8080
     
 ### 5) Postgre
   - Install: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
@@ -46,3 +47,6 @@ Hi, thanks for stopping by! This space is where I document and practice building
 
 ## Troubleshooting:
 - https://stackoverflow.com/questions/55729303/airflow-webserver-started-but-ui-doesnt-show-in-browser
+
+- Check running airflow: sudo lsof -i tcp:8080
+- Kill workflow : kill -9 {pid number}
