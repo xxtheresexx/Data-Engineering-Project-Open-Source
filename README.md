@@ -34,7 +34,7 @@ Hi, thanks for stopping by! This space is where I document and practice building
   - New Connection: Install Postgre connection package: https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html
   - Start Web UI: airflow webserver -p 8080
 
-  ### Airflow Configuration
+## Airflow Configuration
 
   **1) Postgre Connection** 
      - Connection ID: postgres_default
