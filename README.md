@@ -36,16 +36,16 @@ Hi, thanks for stopping by! This space is where I document and practice building
 
 ## Airflow Configuration
 
-  **1) Postgre Connection** 
+  1) Postgre Connection**
      - Connection ID: postgres_default
      - Connection Type: Postgres
      - Local Host: localhost
      - Database: gold_layer
      - username: postgres
      - password: *** {need to setup in postgre}
-     - 
-   **2) Minio Connection**
-      - Connection ID: aws_default
+       
+  2) Minio Connection
+     - Connection ID: aws_default
      - Connection Type: Amazon Web Services
      - Extra: {
                 "aws_access_key_id": "minio_admin",
