@@ -1,6 +1,6 @@
 # Data-Engineering-Project-Open-Source
 
-Hi, thanks for visiting my Github. This is a space for me to practice building data engineering pipelines using open source resources.
+Hi, thanks for stopping by! This space is where I document and practice building data engineering pipelines using open-source tools. I've learned so much from fellow engineers who generously shared their knowledge through documentation, GitHub, and YouTube videos. Now, it's my turn to give back to the community by creating detailed guides to help first-time engineers better understand the data engineering process. Here's my first data engineering project using open-source tools:
 
 ## Problem Statement
 
@@ -27,14 +27,15 @@ Hi, thanks for visiting my Github. This is a space for me to practice building d
     
 ### 4) Airflow
   - Purpose: Orchestration Tool
-     - https://medium.com/orchestras-data-release-pipeline-blog/installing-and-configuring-apache-airflow-a-step-by-step-guide-5ff602c47a36
-     - https://medium.com/@parklaus1078/airflow-installation-on-mac-811d60d7ed40
-     - http://localhost:8080
-     - Install Amazon connection package: pip install apache-airflow-providers-amazon
-     - Install Postgre connection package: https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html
+  - Installation: https://medium.com/orchestras-data-release-pipeline-blog/installing-and-configuring-apache-airflow-a-step-by-step-guide-5ff602c47a36
+  - https://medium.com/@parklaus1078/airflow-installation-on-mac-811d60d7ed40
+  - Access Web UI: http://localhost:8080
+  - New Connection: Install Amazon connection package: pip install apache-airflow-providers-amazon
+  - New Connection: Install Postgre connection package: https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html
+    
 ### 5) Postgre
-     - Install: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
-     - Installation Guide: https://www.youtube.com/watch?v=PShGF_udSpk
+  - Install: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+  - Installation Guide: https://www.youtube.com/watch?v=PShGF_udSpk
 
 ## Methodology
 
