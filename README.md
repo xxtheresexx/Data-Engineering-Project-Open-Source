@@ -6,6 +6,12 @@ Hi, thanks for visiting my Github. This is a space for me to practice building d
 
 ## Dataset
 
+## Preparation
+1) Setup Environment
+   - Object Store: minio
+     - Installation Guide: https://min.io/docs/minio/macos/index.html
+     - Helpful video: https://www.youtube.com/watch?v=sDICGMVldFk
+
 ## Methodology
 
 ### Step 1
