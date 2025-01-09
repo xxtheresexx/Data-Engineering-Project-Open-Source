@@ -24,6 +24,9 @@ Hi, thanks for visiting my Github. This is a space for me to practice building d
      - https://medium.com/orchestras-data-release-pipeline-blog/installing-and-configuring-apache-airflow-a-step-by-step-guide-5ff602c47a36
      - https://medium.com/@parklaus1078/airflow-installation-on-mac-811d60d7ed40
      - http://localhost:8080
+4) Postgre
+     - Install: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+     - Installation Guide: https://www.youtube.com/watch?v=PShGF_udSpk
 
 ## Methodology
 
