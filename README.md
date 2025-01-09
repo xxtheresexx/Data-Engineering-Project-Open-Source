@@ -33,6 +33,27 @@ Hi, thanks for stopping by! This space is where I document and practice building
   - New Connection: Install Amazon connection package: pip install apache-airflow-providers-amazon
   - New Connection: Install Postgre connection package: https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html
   - Start Web UI: airflow webserver -p 8080
+
+  ### Airflow Configuration
+
+  **1) Postgre Connection** 
+     - Connection ID: postgres_default
+     - Connection Type: Postgres
+     - Local Host: localhost
+     - Database: gold_layer
+     - username: postgres
+     - password: *** {need to setup in postgre}
+     - 
+   **2) Minio Connection**
+      - Connection ID: aws_default
+     - Connection Type: Amazon Web Services
+     - Extra: {
+                "aws_access_key_id": "minio_admin",
+                "aws_secret_access_key": "minio_password",
+                "endpoint_url": "http://host.docker.internal:9000"
+              }
+     
+  4) Airbyte
     
 ### 5) Postgre
   - Install: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
