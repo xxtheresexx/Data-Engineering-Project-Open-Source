@@ -24,6 +24,7 @@ Hi, thanks for stopping by! This space is where I document and practice building
   - Purpose: Containerize packages
   - Installation: https://docs.docker.com/desktop/setup/install/mac-install/
   - https://stackoverflow.com/questions/44346109/how-to-easily-install-and-uninstall-docker-on-macos
+  - Create Docker Container: https://www.youtube.com/watch?v=C-bX86AgyiA
     
 ### 4) Airflow
   - Purpose: Orchestration Tool
